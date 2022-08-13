@@ -50,8 +50,7 @@ a{
 
 .containerpicture{
     width: 100%;
-    background-position: center;
-    background-size: cover;
+    
     z-index: 1;
     object-fit: cover;
 }
@@ -59,10 +58,10 @@ a{
 .pictureofrestaurant{
     height: 300px;
     width: 100%;
-    background-position: center;
-    background-size: cover;
     z-index: 1;
-    object-fit: cover;
+    object-fit:cover;
+    
+
     
 }
 .pictureofrestaurant img{

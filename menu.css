@@ -318,20 +318,20 @@ footer h1{
 
 
 .nb1:hover .checked {
-    animation: teste 0.5s;
+    animation: animCheck 0.5s;
     animation-fill-mode: forwards;
    
 }
 
 .nb2:hover .checked {
-    animation: teste 0.5s;
+    animation: animCheck 0.5s;
     animation-fill-mode: forwards;
 
    
 }
 
 .nb3:hover .checked {
-    animation: teste 0.5s;
+    animation: animCheck 0.5s;
     animation-fill-mode: forwards;
 
    
@@ -353,7 +353,7 @@ footer h1{
 }
 
 
-@keyframes teste{
+@keyframes animCheck{
    
     to{
         margin-right: 0px;

@@ -77,11 +77,11 @@ i {
     font-weight: 300;
 }
 
-button:hover {
+#button:hover {
     cursor: pointer;
 }
 
-button{
+#button{
     background:linear-gradient(#FF79DA 0%,#9356DC 90% );
     height: 50px;
     width: 190px;
@@ -91,7 +91,7 @@ button{
     margin-bottom: 40px;
 }
 
-button a{
+#button a{
     color: white;
 }
 .functioning{

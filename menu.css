@@ -182,10 +182,12 @@ a{
     font-size: 20px;
     padding: 20px 40px;
     color: white;
+    transition: 0.5s;
 }
 
 .reserve button:hover{
     cursor: pointer;
+    filter: brightness(1.2);
 }
 
 /*footer*/
@@ -252,7 +254,6 @@ footer h1{
 .coeursolide{
     opacity: 0;
     cursor: pointer;
-    color: #9356DC;
     font-weight: bold;
     transition: 0.4s;
 }
@@ -260,6 +261,12 @@ footer h1{
 .like:hover .coeursolide {
     transform: scale(1.1);
     opacity: 1;
+    background: linear-gradient(rgb(255, 121, 218) 0%, rgb(147, 86, 220) 90%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: brightness(1.1);
 
 }
 
@@ -337,17 +344,17 @@ footer h1{
 }
 
 .nb1:hover .checkicone {
-    animation: rotationcheck 0.5s;
+    animation: rotationcheck 1s;
    
 }
 
 .nb2:hover .checkicone {
-    animation: rotationcheck 0.5s;
+    animation: rotationcheck 1s;
    
 }
 
 .nb3:hover .checkicone {
-    animation: rotationcheck 0.5s;
+    animation: rotationcheck 1s;
    
 }
 

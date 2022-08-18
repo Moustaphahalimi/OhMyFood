@@ -86,12 +86,17 @@ i {
     height: 50px;
     width: 190px;
     border: 0 solid transparent;
-    box-shadow: 0 0 10px gray;
     border-radius: 2rem;
     margin-bottom: 40px;
     display: flex;
     align-items: center;
     padding: 0 15px;
+    transition: 0.5s;
+
+}
+#button:hover{
+    box-shadow: 0 0 10px gray;
+    filter: brightness(1.1);
 }
 
 #button a{
@@ -251,27 +256,29 @@ a{
 .icon {
     font-size: 30px;
     position: relative;
-    
-
 }
 
 .icon:hover{
     transition: 0.4s;
     transform: scale(1.1);
-    cursor: pointer;
-    color: #9356DC;
+    cursor: pointer;    
     font-weight: bold;
-    
-   
 }
 
 
 .coeursolide{
-    opacity:0 ;
+  opacity: 0;
 }
 
 .coeursolide:hover{
     opacity: 1;
+   background: linear-gradient(rgb(255, 121, 218) 0%, rgb(147, 86, 220) 90%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: brightness(1.1);
+    
 }
 
 
